@@ -96,5 +96,7 @@ func main() {
 	a.Insert(1, 1)
 	a.Insert(2, 2)
 	a.Insert(3, 3)
+	a.Delete(3)
+	a.Insert(3, 4)
 	fmt.Println(a)
 }
